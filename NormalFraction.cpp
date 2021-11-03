@@ -5,14 +5,12 @@
 NormalFraction::NormalFraction(NormalFraction &fraction) {
     numerator = fraction.numerator;
     denominator = fraction.denominator;
-    assert(numerator<=denominator);
     assert(denominator != 0);
     Reduction(numerator, denominator);
 }
 
 NormalFraction::NormalFraction(int Numerator, int Denominator) {
     assert(Denominator != 0);
-    assert(Numerator<=Denominator);
     numerator = Numerator;
     denominator = Denominator;
     Reduction(Numerator, Denominator);
