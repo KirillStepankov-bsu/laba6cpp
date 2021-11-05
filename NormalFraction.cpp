@@ -11,9 +11,9 @@ NormalFraction::NormalFraction(NormalFraction &fraction) {
 
 NormalFraction::NormalFraction(int Numerator, int Denominator) {
     assert(Denominator != 0);
-    numerator = Numerator;
-    denominator = Denominator;
-    Reduction(Numerator, Denominator);
+    numerator = Denominator < 0 ? -Numerator : Numerator;
+    denominator = abs(Denominator);
+    Reduction(numerator, denominator);
 }
 
 void NormalFraction::Addition(const NormalFraction &fraction2) {
@@ -32,6 +32,8 @@ void NormalFraction::Division(const NormalFraction &fraction2) {
     assert(fraction2.numerator != 0);
     numerator *= fraction2.denominator;
     denominator *= fraction2.numerator;
+    numerator = denominator < 0 ? -numerator : numerator;
+    denominator = abs(denominator);
     Reduction(numerator, denominator);
 }
 
@@ -56,9 +58,16 @@ void NormalFraction::PrintFraction() const {
         std::cout << 0 << '\n';
         return;
     }
-    if(abs(numerator)>abs(denominator)){
-        int r = abs(numerator)/abs(denominator);
-        std::cout << r << " " << abs(numerator)-abs(denominator)*r << '/' << abs(denominator) << '\n';
+    if (denominator == 1) {
+        std::cout << numerator << std::endl;
+        return;
+    }
+    if (abs(numerator) > abs(denominator)) {
+        int r = abs(numerator) / abs(denominator);
+        if (numerator < 0)
+            std::cout << '-' << r << " " << abs(numerator) - abs(denominator) * r << '/' << abs(denominator) << '\n';
+        else
+            std::cout << r << " " << abs(numerator) - abs(denominator) * r << '/' << abs(denominator) << '\n';
         return;
     }
     std::cout << numerator << '/' << denominator << '\n';

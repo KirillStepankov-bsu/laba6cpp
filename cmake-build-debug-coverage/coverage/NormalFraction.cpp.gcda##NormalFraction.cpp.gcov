@@ -1,0 +1,181 @@
+        -:    0:Source:C:/Users/Asus/CLionProjects/laba6/NormalFraction.cpp
+        -:    0:Graph:C:\Users\Asus\CLionProjects\laba6\cmake-build-debug-coverage\CMakeFiles\laba6.dir\NormalFraction.cpp.gcno
+        -:    0:Data:C:\Users\Asus\CLionProjects\laba6\cmake-build-debug-coverage\CMakeFiles\laba6.dir\NormalFraction.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "NormalFraction.h"
+        -:    2:#include <cassert>
+        -:    3:#include <iostream>
+        -:    4:
+function _ZN14NormalFractionC2ERS_ called 6 returned 100% blocks executed 67%
+        6:    5:NormalFraction::NormalFraction(NormalFraction &fraction) {
+        6:    6:    numerator = fraction.numerator;
+        6:    7:    denominator = fraction.denominator;
+       6*:    8:    assert(denominator != 0);
+        6:    8-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 6
+    %%%%%:    8-block  1
+call    2 never executed
+        6:    8-block  2
+        6:    9:    Reduction(numerator, denominator);
+        6:    9-block  0
+call    0 returned 6
+        6:   10:}
+        -:   11:
+function _ZN14NormalFractionC2Eii called 31 returned 100% blocks executed 78%
+       31:   12:NormalFraction::NormalFraction(int Numerator, int Denominator) {
+      31*:   13:    assert(Denominator != 0);
+       31:   13-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 31
+    %%%%%:   13-block  1
+call    2 never executed
+       31:   13-block  2
+       31:   14:    numerator = Denominator < 0 ? -Numerator : Numerator;
+       31:   14-block  0
+branch  0 taken 4 (fallthrough)
+branch  1 taken 27
+        4:   14-block  1
+       27:   14-block  2
+       31:   15:    denominator = abs(Denominator);
+       31:   16:    Reduction(numerator, denominator);
+       31:   16-block  0
+call    0 returned 31
+       31:   17:}
+        -:   18:
+function _ZN14NormalFraction8AdditionERKS_ called 5 returned 100% blocks executed 100%
+        5:   19:void NormalFraction::Addition(const NormalFraction &fraction2) {
+        5:   20:    numerator = numerator * fraction2.denominator + denominator * fraction2.numerator;
+        5:   21:    denominator = denominator * fraction2.denominator;
+        5:   22:    Reduction(numerator, denominator);
+        5:   22-block  0
+call    0 returned 5
+        5:   23:}
+        -:   24:
+function _ZN14NormalFraction14MultiplicationERKS_ called 4 returned 100% blocks executed 100%
+        4:   25:void NormalFraction::Multiplication(const NormalFraction &fraction2) {
+        4:   26:    numerator = numerator * fraction2.numerator;
+        4:   27:    denominator = denominator * fraction2.denominator;
+        4:   28:    Reduction(numerator, denominator);
+        4:   28-block  0
+call    0 returned 4
+        4:   29:}
+        -:   30:
+function _ZN14NormalFraction8DivisionERKS_ called 2 returned 100% blocks executed 67%
+        2:   31:void NormalFraction::Division(const NormalFraction &fraction2) {
+       2*:   32:    assert(fraction2.numerator != 0);
+        2:   32-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 2
+    %%%%%:   32-block  1
+call    2 never executed
+        2:   32-block  2
+        2:   33:    numerator *= fraction2.denominator;
+        2:   34:    denominator *= fraction2.numerator;
+       2*:   35:    numerator = denominator < 0 ? -numerator : numerator;
+        2:   35-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 2
+    %%%%%:   35-block  1
+        2:   35-block  2
+        2:   36:    denominator = abs(denominator);
+        2:   37:    Reduction(numerator, denominator);
+        2:   37-block  0
+call    0 returned 2
+        2:   38:}
+        -:   39:
+function _ZN14NormalFraction9ReductionERiS0_ called 48 returned 100% blocks executed 100%
+       48:   40:void NormalFraction::Reduction(int &Numerator, int &Denominator) {
+       48:   41:    int factor = GreatestCommonFactor(abs(Numerator), abs(Denominator));
+       48:   41-block  0
+call    0 returned 48
+       48:   42:    Numerator /= factor;
+       48:   43:    Denominator /= factor;
+       48:   44:}
+        -:   45:
+function _ZN14NormalFraction20GreatestCommonFactorEii called 108 returned 100% blocks executed 100%
+      108:   46:int NormalFraction::GreatestCommonFactor(int Numerator, int Denominator) {
+      108:   47:    if (Numerator % Denominator == 0)
+      108:   47-block  0
+branch  0 taken 37 (fallthrough)
+branch  1 taken 71
+       37:   48:        return Denominator;
+       37:   48-block  0
+       71:   49:    if (Denominator % Numerator == 0)
+       71:   49-block  0
+branch  0 taken 11 (fallthrough)
+branch  1 taken 60
+       11:   50:        return Numerator;
+       11:   50-block  0
+       60:   51:    if (Numerator > Denominator)
+       60:   51-block  0
+branch  0 taken 19 (fallthrough)
+branch  1 taken 41
+       19:   52:        return GreatestCommonFactor(Numerator % Denominator, Denominator);
+       19:   52-block  0
+call    0 returned 19
+       41:   53:    return GreatestCommonFactor(Numerator, Denominator % Numerator);
+       41:   53-block  0
+call    0 returned 41
+        -:   54:}
+        -:   55:
+function _ZNK14NormalFraction13PrintFractionEv called 0 returned 0% blocks executed 0%
+    #####:   56:void NormalFraction::PrintFraction() const {
+    #####:   57:    if (numerator == 0) {
+    %%%%%:   57-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   58:        std::cout << 0 << '\n';
+    %%%%%:   58-block  0
+call    0 never executed
+call    1 never executed
+    #####:   59:        return;
+        -:   60:    }
+    #####:   61:    if (denominator == 1) {
+    %%%%%:   61-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   62:        std::cout << numerator << std::endl;
+    %%%%%:   62-block  0
+call    0 never executed
+call    1 never executed
+    #####:   63:        return;
+        -:   64:    }
+    #####:   65:    if (abs(numerator) > abs(denominator)) {
+    %%%%%:   65-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   66:        int r = abs(numerator) / abs(denominator);
+    #####:   67:        if (numerator < 0)
+    %%%%%:   67-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   68:            std::cout << '-' << r << " " << abs(numerator) - abs(denominator) * r << '/' << abs(denominator) << '\n';
+    %%%%%:   68-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+call    4 never executed
+call    5 never executed
+call    6 never executed
+        -:   69:        else
+    #####:   70:            std::cout << r << " " << abs(numerator) - abs(denominator) * r << '/' << abs(denominator) << '\n';
+    %%%%%:   70-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+call    4 never executed
+call    5 never executed
+    #####:   71:        return;
+    %%%%%:   71-block  0
+        -:   72:    }
+    #####:   73:    std::cout << numerator << '/' << denominator << '\n';
+    %%%%%:   73-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+        -:   74:}
+        -:   75:

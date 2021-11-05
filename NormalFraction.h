@@ -18,7 +18,7 @@ public:
 
     void PrintFraction() const;
 
-    void Division(const NormalFraction& fraction2);
+    void Division(const NormalFraction &fraction2);
 
 private:
     void Reduction(int &Numerator, int &Denominator);

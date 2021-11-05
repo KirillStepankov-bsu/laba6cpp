@@ -1,0 +1,2251 @@
+        -:    0:Source:C:/Users/Asus/CLionProjects/laba6/tests.cpp
+        -:    0:Graph:C:\Users\Asus\CLionProjects\laba6\cmake-build-debug-coverage\CMakeFiles\laba6.dir\tests.cpp.gcno
+        -:    0:Data:C:\Users\Asus\CLionProjects\laba6\cmake-build-debug-coverage\CMakeFiles\laba6.dir\tests.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "NormalFraction.h"
+        -:    2:#include "gtest/gtest.h"
+        -:    3:
+        4:    4:TEST(FracConstrust, СancellableFrac) {
+        1:    5:    NormalFraction fraction1(8, 20);
+       1*:    6:    ASSERT_EQ(fraction1.GetNumerator(), 2);
+       1*:    7:    ASSERT_EQ(fraction1.GetDenominator(), 5);
+        -:    8:}
+------------------
+_ZN35FracConstrust_СancellableFrac_TestC1Ev:
+function _ZN35FracConstrust_СancellableFrac_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:    4:TEST(FracConstrust, СancellableFrac) {
+        1:    4-block  0
+call    0 returned 1
+------------------
+_ZN35FracConstrust_СancellableFrac_TestD0Ev:
+function _ZN35FracConstrust_СancellableFrac_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:    4:TEST(FracConstrust, СancellableFrac) {
+        1:    4-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN35FracConstrust_СancellableFrac_TestD1Ev:
+function _ZN35FracConstrust_СancellableFrac_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:    4:TEST(FracConstrust, СancellableFrac) {
+        1:    4-block  0
+call    0 returned 1
+------------------
+_ZN35FracConstrust_СancellableFrac_Test8TestBodyEv:
+function _ZN35FracConstrust_СancellableFrac_Test8TestBodyEv called 1 returned 100% blocks executed 30%
+        1:    4:TEST(FracConstrust, СancellableFrac) {
+        1:    5:    NormalFraction fraction1(8, 20);
+        1:    5-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:    6:    ASSERT_EQ(fraction1.GetNumerator(), 2);
+        1:    6-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:    6-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:    6-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:    6-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:    6-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:    6-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:    6-block  6
+    $$$$$:    6-block  7
+    $$$$$:    6-block  8
+call   19 never executed
+    $$$$$:    6-block  9
+    $$$$$:    6-block 10
+call   20 never executed
+    $$$$$:    6-block 11
+    $$$$$:    6-block 12
+call   21 never executed
+       1*:    7:    ASSERT_EQ(fraction1.GetDenominator(), 5);
+        1:    7-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:    7-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:    7-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:    7-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:    7-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:    7-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:    7-block  6
+    $$$$$:    7-block  7
+    $$$$$:    7-block  8
+call   19 never executed
+    $$$$$:    7-block  9
+    $$$$$:    7-block 10
+call   20 never executed
+    $$$$$:    7-block 11
+    $$$$$:    7-block 12
+call   21 never executed
+        -:    8:}
+------------------
+        -:    9:
+        4:   10:TEST(FracConstrust, NotСancellableFrac) {
+        1:   11:    NormalFraction fraction1(9, 20);
+       1*:   12:    ASSERT_EQ(fraction1.GetNumerator(), 9);
+       1*:   13:    ASSERT_EQ(fraction1.GetDenominator(), 20);
+        -:   14:}
+------------------
+_ZN38FracConstrust_NotСancellableFrac_TestC1Ev:
+function _ZN38FracConstrust_NotСancellableFrac_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:   10:TEST(FracConstrust, NotСancellableFrac) {
+        1:   10-block  0
+call    0 returned 1
+------------------
+_ZN38FracConstrust_NotСancellableFrac_TestD0Ev:
+function _ZN38FracConstrust_NotСancellableFrac_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:   10:TEST(FracConstrust, NotСancellableFrac) {
+        1:   10-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN38FracConstrust_NotСancellableFrac_TestD1Ev:
+function _ZN38FracConstrust_NotСancellableFrac_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:   10:TEST(FracConstrust, NotСancellableFrac) {
+        1:   10-block  0
+call    0 returned 1
+------------------
+_ZN38FracConstrust_NotСancellableFrac_Test8TestBodyEv:
+function _ZN38FracConstrust_NotСancellableFrac_Test8TestBodyEv called 1 returned 100% blocks executed 30%
+        1:   10:TEST(FracConstrust, NotСancellableFrac) {
+        1:   11:    NormalFraction fraction1(9, 20);
+        1:   11-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   12:    ASSERT_EQ(fraction1.GetNumerator(), 9);
+        1:   12-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   12-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   12-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   12-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   12-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   12-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   12-block  6
+    $$$$$:   12-block  7
+    $$$$$:   12-block  8
+call   19 never executed
+    $$$$$:   12-block  9
+    $$$$$:   12-block 10
+call   20 never executed
+    $$$$$:   12-block 11
+    $$$$$:   12-block 12
+call   21 never executed
+       1*:   13:    ASSERT_EQ(fraction1.GetDenominator(), 20);
+        1:   13-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   13-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   13-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   13-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   13-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   13-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   13-block  6
+    $$$$$:   13-block  7
+    $$$$$:   13-block  8
+call   19 never executed
+    $$$$$:   13-block  9
+    $$$$$:   13-block 10
+call   20 never executed
+    $$$$$:   13-block 11
+    $$$$$:   13-block 12
+call   21 never executed
+        -:   14:}
+------------------
+        -:   15:
+        4:   16:TEST(FracConstrust, MinusNumerator) {
+        1:   17:    NormalFraction fraction1(-3, 8);
+       1*:   18:    ASSERT_EQ(fraction1.GetNumerator(), -3);
+       1*:   19:    ASSERT_EQ(fraction1.GetDenominator(), 8);
+        -:   20:}
+------------------
+_ZN33FracConstrust_MinusNumerator_TestC1Ev:
+function _ZN33FracConstrust_MinusNumerator_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:   16:TEST(FracConstrust, MinusNumerator) {
+        1:   16-block  0
+call    0 returned 1
+------------------
+_ZN33FracConstrust_MinusNumerator_TestD0Ev:
+function _ZN33FracConstrust_MinusNumerator_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:   16:TEST(FracConstrust, MinusNumerator) {
+        1:   16-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN33FracConstrust_MinusNumerator_TestD1Ev:
+function _ZN33FracConstrust_MinusNumerator_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:   16:TEST(FracConstrust, MinusNumerator) {
+        1:   16-block  0
+call    0 returned 1
+------------------
+_ZN33FracConstrust_MinusNumerator_Test8TestBodyEv:
+function _ZN33FracConstrust_MinusNumerator_Test8TestBodyEv called 1 returned 100% blocks executed 30%
+        1:   16:TEST(FracConstrust, MinusNumerator) {
+        1:   17:    NormalFraction fraction1(-3, 8);
+        1:   17-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   18:    ASSERT_EQ(fraction1.GetNumerator(), -3);
+        1:   18-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   18-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   18-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   18-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   18-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   18-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   18-block  6
+    $$$$$:   18-block  7
+    $$$$$:   18-block  8
+call   19 never executed
+    $$$$$:   18-block  9
+    $$$$$:   18-block 10
+call   20 never executed
+    $$$$$:   18-block 11
+    $$$$$:   18-block 12
+call   21 never executed
+       1*:   19:    ASSERT_EQ(fraction1.GetDenominator(), 8);
+        1:   19-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   19-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   19-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   19-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   19-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   19-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   19-block  6
+    $$$$$:   19-block  7
+    $$$$$:   19-block  8
+call   19 never executed
+    $$$$$:   19-block  9
+    $$$$$:   19-block 10
+call   20 never executed
+    $$$$$:   19-block 11
+    $$$$$:   19-block 12
+call   21 never executed
+        -:   20:}
+------------------
+        -:   21:
+        4:   22:TEST(FracConstrust, MinusDenominator) {
+        1:   23:    NormalFraction fraction1(8, -11);
+       1*:   24:    ASSERT_EQ(fraction1.GetNumerator(), -8);
+       1*:   25:    ASSERT_EQ(fraction1.GetDenominator(), 11);
+        -:   26:}
+------------------
+_ZN35FracConstrust_MinusDenominator_TestC1Ev:
+function _ZN35FracConstrust_MinusDenominator_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:   22:TEST(FracConstrust, MinusDenominator) {
+        1:   22-block  0
+call    0 returned 1
+------------------
+_ZN35FracConstrust_MinusDenominator_TestD0Ev:
+function _ZN35FracConstrust_MinusDenominator_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:   22:TEST(FracConstrust, MinusDenominator) {
+        1:   22-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN35FracConstrust_MinusDenominator_TestD1Ev:
+function _ZN35FracConstrust_MinusDenominator_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:   22:TEST(FracConstrust, MinusDenominator) {
+        1:   22-block  0
+call    0 returned 1
+------------------
+_ZN35FracConstrust_MinusDenominator_Test8TestBodyEv:
+function _ZN35FracConstrust_MinusDenominator_Test8TestBodyEv called 1 returned 100% blocks executed 30%
+        1:   22:TEST(FracConstrust, MinusDenominator) {
+        1:   23:    NormalFraction fraction1(8, -11);
+        1:   23-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   24:    ASSERT_EQ(fraction1.GetNumerator(), -8);
+        1:   24-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   24-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   24-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   24-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   24-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   24-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   24-block  6
+    $$$$$:   24-block  7
+    $$$$$:   24-block  8
+call   19 never executed
+    $$$$$:   24-block  9
+    $$$$$:   24-block 10
+call   20 never executed
+    $$$$$:   24-block 11
+    $$$$$:   24-block 12
+call   21 never executed
+       1*:   25:    ASSERT_EQ(fraction1.GetDenominator(), 11);
+        1:   25-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   25-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   25-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   25-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   25-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   25-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   25-block  6
+    $$$$$:   25-block  7
+    $$$$$:   25-block  8
+call   19 never executed
+    $$$$$:   25-block  9
+    $$$$$:   25-block 10
+call   20 never executed
+    $$$$$:   25-block 11
+    $$$$$:   25-block 12
+call   21 never executed
+        -:   26:}
+------------------
+        -:   27:
+        4:   28:TEST(FracConstrust, MinusDenominatorAndNumerator) {
+        1:   29:    NormalFraction fraction1(-3, -4);
+       1*:   30:    ASSERT_EQ(fraction1.GetNumerator(), 3);
+       1*:   31:    ASSERT_EQ(fraction1.GetDenominator(), 4);
+        -:   32:}
+------------------
+_ZN47FracConstrust_MinusDenominatorAndNumerator_TestC1Ev:
+function _ZN47FracConstrust_MinusDenominatorAndNumerator_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:   28:TEST(FracConstrust, MinusDenominatorAndNumerator) {
+        1:   28-block  0
+call    0 returned 1
+------------------
+_ZN47FracConstrust_MinusDenominatorAndNumerator_TestD0Ev:
+function _ZN47FracConstrust_MinusDenominatorAndNumerator_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:   28:TEST(FracConstrust, MinusDenominatorAndNumerator) {
+        1:   28-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN47FracConstrust_MinusDenominatorAndNumerator_TestD1Ev:
+function _ZN47FracConstrust_MinusDenominatorAndNumerator_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:   28:TEST(FracConstrust, MinusDenominatorAndNumerator) {
+        1:   28-block  0
+call    0 returned 1
+------------------
+_ZN47FracConstrust_MinusDenominatorAndNumerator_Test8TestBodyEv:
+function _ZN47FracConstrust_MinusDenominatorAndNumerator_Test8TestBodyEv called 1 returned 100% blocks executed 30%
+        1:   28:TEST(FracConstrust, MinusDenominatorAndNumerator) {
+        1:   29:    NormalFraction fraction1(-3, -4);
+        1:   29-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   30:    ASSERT_EQ(fraction1.GetNumerator(), 3);
+        1:   30-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   30-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   30-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   30-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   30-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   30-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   30-block  6
+    $$$$$:   30-block  7
+    $$$$$:   30-block  8
+call   19 never executed
+    $$$$$:   30-block  9
+    $$$$$:   30-block 10
+call   20 never executed
+    $$$$$:   30-block 11
+    $$$$$:   30-block 12
+call   21 never executed
+       1*:   31:    ASSERT_EQ(fraction1.GetDenominator(), 4);
+        1:   31-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   31-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   31-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   31-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   31-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   31-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   31-block  6
+    $$$$$:   31-block  7
+    $$$$$:   31-block  8
+call   19 never executed
+    $$$$$:   31-block  9
+    $$$$$:   31-block 10
+call   20 never executed
+    $$$$$:   31-block 11
+    $$$$$:   31-block 12
+call   21 never executed
+        -:   32:}
+------------------
+        -:   33:
+        -:   34:
+        4:   35:TEST(FracCopyConstrust, СancellableFrac) {
+        1:   36:    NormalFraction fraction1(8, 20);
+        1:   37:    NormalFraction fraction2(fraction1);
+       1*:   38:    ASSERT_EQ(fraction2.GetNumerator(), 2);
+       1*:   39:    ASSERT_EQ(fraction2.GetDenominator(), 5);
+        -:   40:}
+------------------
+_ZN39FracCopyConstrust_СancellableFrac_TestC1Ev:
+function _ZN39FracCopyConstrust_СancellableFrac_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:   35:TEST(FracCopyConstrust, СancellableFrac) {
+        1:   35-block  0
+call    0 returned 1
+------------------
+_ZN39FracCopyConstrust_СancellableFrac_TestD0Ev:
+function _ZN39FracCopyConstrust_СancellableFrac_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:   35:TEST(FracCopyConstrust, СancellableFrac) {
+        1:   35-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN39FracCopyConstrust_СancellableFrac_TestD1Ev:
+function _ZN39FracCopyConstrust_СancellableFrac_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:   35:TEST(FracCopyConstrust, СancellableFrac) {
+        1:   35-block  0
+call    0 returned 1
+------------------
+_ZN39FracCopyConstrust_СancellableFrac_Test8TestBodyEv:
+function _ZN39FracCopyConstrust_СancellableFrac_Test8TestBodyEv called 1 returned 100% blocks executed 31%
+        1:   35:TEST(FracCopyConstrust, СancellableFrac) {
+        1:   36:    NormalFraction fraction1(8, 20);
+        1:   36-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   37:    NormalFraction fraction2(fraction1);
+        1:   37-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   38:    ASSERT_EQ(fraction2.GetNumerator(), 2);
+        1:   38-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   38-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   38-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   38-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   38-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   38-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   38-block  6
+    $$$$$:   38-block  7
+    $$$$$:   38-block  8
+call   19 never executed
+    $$$$$:   38-block  9
+    $$$$$:   38-block 10
+call   20 never executed
+    $$$$$:   38-block 11
+    $$$$$:   38-block 12
+call   21 never executed
+       1*:   39:    ASSERT_EQ(fraction2.GetDenominator(), 5);
+        1:   39-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   39-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   39-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   39-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   39-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   39-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   39-block  6
+    $$$$$:   39-block  7
+    $$$$$:   39-block  8
+call   19 never executed
+    $$$$$:   39-block  9
+    $$$$$:   39-block 10
+call   20 never executed
+    $$$$$:   39-block 11
+    $$$$$:   39-block 12
+call   21 never executed
+        -:   40:}
+------------------
+        -:   41:
+        4:   42:TEST(FracCopyConstrust, NotСancellableFrac) {
+        1:   43:    NormalFraction fraction1(9, 20);
+        1:   44:    NormalFraction fraction2(fraction1);
+       1*:   45:    ASSERT_EQ(fraction2.GetNumerator(), 9);
+       1*:   46:    ASSERT_EQ(fraction2.GetDenominator(), 20);
+        -:   47:}
+------------------
+_ZN42FracCopyConstrust_NotСancellableFrac_TestC1Ev:
+function _ZN42FracCopyConstrust_NotСancellableFrac_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:   42:TEST(FracCopyConstrust, NotСancellableFrac) {
+        1:   42-block  0
+call    0 returned 1
+------------------
+_ZN42FracCopyConstrust_NotСancellableFrac_TestD0Ev:
+function _ZN42FracCopyConstrust_NotСancellableFrac_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:   42:TEST(FracCopyConstrust, NotСancellableFrac) {
+        1:   42-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN42FracCopyConstrust_NotСancellableFrac_TestD1Ev:
+function _ZN42FracCopyConstrust_NotСancellableFrac_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:   42:TEST(FracCopyConstrust, NotСancellableFrac) {
+        1:   42-block  0
+call    0 returned 1
+------------------
+_ZN42FracCopyConstrust_NotСancellableFrac_Test8TestBodyEv:
+function _ZN42FracCopyConstrust_NotСancellableFrac_Test8TestBodyEv called 1 returned 100% blocks executed 31%
+        1:   42:TEST(FracCopyConstrust, NotСancellableFrac) {
+        1:   43:    NormalFraction fraction1(9, 20);
+        1:   43-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   44:    NormalFraction fraction2(fraction1);
+        1:   44-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   45:    ASSERT_EQ(fraction2.GetNumerator(), 9);
+        1:   45-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   45-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   45-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   45-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   45-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   45-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   45-block  6
+    $$$$$:   45-block  7
+    $$$$$:   45-block  8
+call   19 never executed
+    $$$$$:   45-block  9
+    $$$$$:   45-block 10
+call   20 never executed
+    $$$$$:   45-block 11
+    $$$$$:   45-block 12
+call   21 never executed
+       1*:   46:    ASSERT_EQ(fraction2.GetDenominator(), 20);
+        1:   46-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   46-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   46-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   46-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   46-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   46-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   46-block  6
+    $$$$$:   46-block  7
+    $$$$$:   46-block  8
+call   19 never executed
+    $$$$$:   46-block  9
+    $$$$$:   46-block 10
+call   20 never executed
+    $$$$$:   46-block 11
+    $$$$$:   46-block 12
+call   21 never executed
+        -:   47:}
+------------------
+        -:   48:
+        4:   49:TEST(FracCopyConstrust, MinusNumerator) {
+        1:   50:    NormalFraction fraction1(-3, 8);
+        1:   51:    NormalFraction fraction2(fraction1);
+       1*:   52:    ASSERT_EQ(fraction2.GetNumerator(), -3);
+       1*:   53:    ASSERT_EQ(fraction2.GetDenominator(), 8);
+        -:   54:}
+------------------
+_ZN37FracCopyConstrust_MinusNumerator_TestC1Ev:
+function _ZN37FracCopyConstrust_MinusNumerator_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:   49:TEST(FracCopyConstrust, MinusNumerator) {
+        1:   49-block  0
+call    0 returned 1
+------------------
+_ZN37FracCopyConstrust_MinusNumerator_TestD0Ev:
+function _ZN37FracCopyConstrust_MinusNumerator_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:   49:TEST(FracCopyConstrust, MinusNumerator) {
+        1:   49-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN37FracCopyConstrust_MinusNumerator_TestD1Ev:
+function _ZN37FracCopyConstrust_MinusNumerator_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:   49:TEST(FracCopyConstrust, MinusNumerator) {
+        1:   49-block  0
+call    0 returned 1
+------------------
+_ZN37FracCopyConstrust_MinusNumerator_Test8TestBodyEv:
+function _ZN37FracCopyConstrust_MinusNumerator_Test8TestBodyEv called 1 returned 100% blocks executed 31%
+        1:   49:TEST(FracCopyConstrust, MinusNumerator) {
+        1:   50:    NormalFraction fraction1(-3, 8);
+        1:   50-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   51:    NormalFraction fraction2(fraction1);
+        1:   51-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   52:    ASSERT_EQ(fraction2.GetNumerator(), -3);
+        1:   52-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   52-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   52-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   52-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   52-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   52-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   52-block  6
+    $$$$$:   52-block  7
+    $$$$$:   52-block  8
+call   19 never executed
+    $$$$$:   52-block  9
+    $$$$$:   52-block 10
+call   20 never executed
+    $$$$$:   52-block 11
+    $$$$$:   52-block 12
+call   21 never executed
+       1*:   53:    ASSERT_EQ(fraction2.GetDenominator(), 8);
+        1:   53-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   53-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   53-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   53-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   53-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   53-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   53-block  6
+    $$$$$:   53-block  7
+    $$$$$:   53-block  8
+call   19 never executed
+    $$$$$:   53-block  9
+    $$$$$:   53-block 10
+call   20 never executed
+    $$$$$:   53-block 11
+    $$$$$:   53-block 12
+call   21 never executed
+        -:   54:}
+------------------
+        -:   55:
+        4:   56:TEST(FracCopyConstrust, MinusDenominator) {
+        1:   57:    NormalFraction fraction1(8, -11);
+        1:   58:    NormalFraction fraction2(fraction1);
+       1*:   59:    ASSERT_EQ(fraction2.GetNumerator(), -8);
+       1*:   60:    ASSERT_EQ(fraction2.GetDenominator(), 11);
+        -:   61:}
+------------------
+_ZN39FracCopyConstrust_MinusDenominator_TestC1Ev:
+function _ZN39FracCopyConstrust_MinusDenominator_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:   56:TEST(FracCopyConstrust, MinusDenominator) {
+        1:   56-block  0
+call    0 returned 1
+------------------
+_ZN39FracCopyConstrust_MinusDenominator_TestD0Ev:
+function _ZN39FracCopyConstrust_MinusDenominator_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:   56:TEST(FracCopyConstrust, MinusDenominator) {
+        1:   56-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN39FracCopyConstrust_MinusDenominator_TestD1Ev:
+function _ZN39FracCopyConstrust_MinusDenominator_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:   56:TEST(FracCopyConstrust, MinusDenominator) {
+        1:   56-block  0
+call    0 returned 1
+------------------
+_ZN39FracCopyConstrust_MinusDenominator_Test8TestBodyEv:
+function _ZN39FracCopyConstrust_MinusDenominator_Test8TestBodyEv called 1 returned 100% blocks executed 31%
+        1:   56:TEST(FracCopyConstrust, MinusDenominator) {
+        1:   57:    NormalFraction fraction1(8, -11);
+        1:   57-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   58:    NormalFraction fraction2(fraction1);
+        1:   58-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   59:    ASSERT_EQ(fraction2.GetNumerator(), -8);
+        1:   59-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   59-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   59-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   59-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   59-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   59-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   59-block  6
+    $$$$$:   59-block  7
+    $$$$$:   59-block  8
+call   19 never executed
+    $$$$$:   59-block  9
+    $$$$$:   59-block 10
+call   20 never executed
+    $$$$$:   59-block 11
+    $$$$$:   59-block 12
+call   21 never executed
+       1*:   60:    ASSERT_EQ(fraction2.GetDenominator(), 11);
+        1:   60-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   60-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   60-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   60-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   60-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   60-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   60-block  6
+    $$$$$:   60-block  7
+    $$$$$:   60-block  8
+call   19 never executed
+    $$$$$:   60-block  9
+    $$$$$:   60-block 10
+call   20 never executed
+    $$$$$:   60-block 11
+    $$$$$:   60-block 12
+call   21 never executed
+        -:   61:}
+------------------
+        -:   62:
+        4:   63:TEST(FracCopyConstrust, MinusDenominatorAndNumerator) {
+        1:   64:    NormalFraction fraction1(-3, -4);
+        1:   65:    NormalFraction fraction2(fraction1);
+       1*:   66:    ASSERT_EQ(fraction2.GetNumerator(), 3);
+       1*:   67:    ASSERT_EQ(fraction2.GetDenominator(), 4);
+        -:   68:}
+------------------
+_ZN51FracCopyConstrust_MinusDenominatorAndNumerator_TestC1Ev:
+function _ZN51FracCopyConstrust_MinusDenominatorAndNumerator_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:   63:TEST(FracCopyConstrust, MinusDenominatorAndNumerator) {
+        1:   63-block  0
+call    0 returned 1
+------------------
+_ZN51FracCopyConstrust_MinusDenominatorAndNumerator_TestD0Ev:
+function _ZN51FracCopyConstrust_MinusDenominatorAndNumerator_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:   63:TEST(FracCopyConstrust, MinusDenominatorAndNumerator) {
+        1:   63-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN51FracCopyConstrust_MinusDenominatorAndNumerator_TestD1Ev:
+function _ZN51FracCopyConstrust_MinusDenominatorAndNumerator_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:   63:TEST(FracCopyConstrust, MinusDenominatorAndNumerator) {
+        1:   63-block  0
+call    0 returned 1
+------------------
+_ZN51FracCopyConstrust_MinusDenominatorAndNumerator_Test8TestBodyEv:
+function _ZN51FracCopyConstrust_MinusDenominatorAndNumerator_Test8TestBodyEv called 1 returned 100% blocks executed 31%
+        1:   63:TEST(FracCopyConstrust, MinusDenominatorAndNumerator) {
+        1:   64:    NormalFraction fraction1(-3, -4);
+        1:   64-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   65:    NormalFraction fraction2(fraction1);
+        1:   65-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   66:    ASSERT_EQ(fraction2.GetNumerator(), 3);
+        1:   66-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   66-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   66-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   66-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   66-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   66-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   66-block  6
+    $$$$$:   66-block  7
+    $$$$$:   66-block  8
+call   19 never executed
+    $$$$$:   66-block  9
+    $$$$$:   66-block 10
+call   20 never executed
+    $$$$$:   66-block 11
+    $$$$$:   66-block 12
+call   21 never executed
+       1*:   67:    ASSERT_EQ(fraction2.GetDenominator(), 4);
+        1:   67-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   67-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   67-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   67-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   67-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   67-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   67-block  6
+    $$$$$:   67-block  7
+    $$$$$:   67-block  8
+call   19 never executed
+    $$$$$:   67-block  9
+    $$$$$:   67-block 10
+call   20 never executed
+    $$$$$:   67-block 11
+    $$$$$:   67-block 12
+call   21 never executed
+        -:   68:}
+------------------
+        -:   69:
+        -:   70:
+        4:   71:TEST(FracAddition, DenominatorEqOne) {
+        1:   72:    NormalFraction fraction1(3, 4);
+        1:   73:    NormalFraction fraction2(4, 1);
+        1:   74:    fraction1.Addition(fraction2);
+       1*:   75:    ASSERT_EQ(fraction1.GetNumerator(), 19);
+       1*:   76:    ASSERT_EQ(fraction1.GetDenominator(), 4);
+        -:   77:}
+------------------
+_ZN34FracAddition_DenominatorEqOne_TestC1Ev:
+function _ZN34FracAddition_DenominatorEqOne_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:   71:TEST(FracAddition, DenominatorEqOne) {
+        1:   71-block  0
+call    0 returned 1
+------------------
+_ZN34FracAddition_DenominatorEqOne_TestD0Ev:
+function _ZN34FracAddition_DenominatorEqOne_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:   71:TEST(FracAddition, DenominatorEqOne) {
+        1:   71-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN34FracAddition_DenominatorEqOne_TestD1Ev:
+function _ZN34FracAddition_DenominatorEqOne_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:   71:TEST(FracAddition, DenominatorEqOne) {
+        1:   71-block  0
+call    0 returned 1
+------------------
+_ZN34FracAddition_DenominatorEqOne_Test8TestBodyEv:
+function _ZN34FracAddition_DenominatorEqOne_Test8TestBodyEv called 1 returned 100% blocks executed 32%
+        1:   71:TEST(FracAddition, DenominatorEqOne) {
+        1:   72:    NormalFraction fraction1(3, 4);
+        1:   72-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   73:    NormalFraction fraction2(4, 1);
+        1:   73-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   74:    fraction1.Addition(fraction2);
+        1:   74-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   75:    ASSERT_EQ(fraction1.GetNumerator(), 19);
+        1:   75-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   75-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   75-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   75-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   75-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   75-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   75-block  6
+    $$$$$:   75-block  7
+    $$$$$:   75-block  8
+call   19 never executed
+    $$$$$:   75-block  9
+    $$$$$:   75-block 10
+call   20 never executed
+    $$$$$:   75-block 11
+    $$$$$:   75-block 12
+call   21 never executed
+       1*:   76:    ASSERT_EQ(fraction1.GetDenominator(), 4);
+        1:   76-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   76-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   76-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   76-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   76-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   76-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   76-block  6
+    $$$$$:   76-block  7
+    $$$$$:   76-block  8
+call   19 never executed
+    $$$$$:   76-block  9
+    $$$$$:   76-block 10
+call   20 never executed
+    $$$$$:   76-block 11
+    $$$$$:   76-block 12
+call   21 never executed
+        -:   77:}
+------------------
+        -:   78:
+        4:   79:TEST(FracAddition, DenominatorNotEqOne) {
+        1:   80:    NormalFraction fraction1(3, 4);
+        1:   81:    NormalFraction fraction2(4, 9);
+        1:   82:    fraction1.Addition(fraction2);
+       1*:   83:    ASSERT_EQ(fraction1.GetNumerator(), 43);
+       1*:   84:    ASSERT_EQ(fraction1.GetDenominator(), 36);
+        -:   85:}
+------------------
+_ZN37FracAddition_DenominatorNotEqOne_TestC1Ev:
+function _ZN37FracAddition_DenominatorNotEqOne_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:   79:TEST(FracAddition, DenominatorNotEqOne) {
+        1:   79-block  0
+call    0 returned 1
+------------------
+_ZN37FracAddition_DenominatorNotEqOne_TestD0Ev:
+function _ZN37FracAddition_DenominatorNotEqOne_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:   79:TEST(FracAddition, DenominatorNotEqOne) {
+        1:   79-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN37FracAddition_DenominatorNotEqOne_TestD1Ev:
+function _ZN37FracAddition_DenominatorNotEqOne_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:   79:TEST(FracAddition, DenominatorNotEqOne) {
+        1:   79-block  0
+call    0 returned 1
+------------------
+_ZN37FracAddition_DenominatorNotEqOne_Test8TestBodyEv:
+function _ZN37FracAddition_DenominatorNotEqOne_Test8TestBodyEv called 1 returned 100% blocks executed 32%
+        1:   79:TEST(FracAddition, DenominatorNotEqOne) {
+        1:   80:    NormalFraction fraction1(3, 4);
+        1:   80-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   81:    NormalFraction fraction2(4, 9);
+        1:   81-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   82:    fraction1.Addition(fraction2);
+        1:   82-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   83:    ASSERT_EQ(fraction1.GetNumerator(), 43);
+        1:   83-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   83-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   83-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   83-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   83-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   83-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   83-block  6
+    $$$$$:   83-block  7
+    $$$$$:   83-block  8
+call   19 never executed
+    $$$$$:   83-block  9
+    $$$$$:   83-block 10
+call   20 never executed
+    $$$$$:   83-block 11
+    $$$$$:   83-block 12
+call   21 never executed
+       1*:   84:    ASSERT_EQ(fraction1.GetDenominator(), 36);
+        1:   84-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   84-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   84-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   84-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   84-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   84-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   84-block  6
+    $$$$$:   84-block  7
+    $$$$$:   84-block  8
+call   19 never executed
+    $$$$$:   84-block  9
+    $$$$$:   84-block 10
+call   20 never executed
+    $$$$$:   84-block 11
+    $$$$$:   84-block 12
+call   21 never executed
+        -:   85:}
+------------------
+        -:   86:
+        4:   87:TEST(FracAddition, AdditionNull) {
+        1:   88:    NormalFraction fraction1(3, 4);
+        1:   89:    NormalFraction fraction2(0, 1);
+        1:   90:    fraction1.Addition(fraction2);
+       1*:   91:    ASSERT_EQ(fraction1.GetNumerator(), 3);
+       1*:   92:    ASSERT_EQ(fraction1.GetDenominator(), 4);
+        -:   93:}
+------------------
+_ZN30FracAddition_AdditionNull_TestC1Ev:
+function _ZN30FracAddition_AdditionNull_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:   87:TEST(FracAddition, AdditionNull) {
+        1:   87-block  0
+call    0 returned 1
+------------------
+_ZN30FracAddition_AdditionNull_TestD0Ev:
+function _ZN30FracAddition_AdditionNull_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:   87:TEST(FracAddition, AdditionNull) {
+        1:   87-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN30FracAddition_AdditionNull_TestD1Ev:
+function _ZN30FracAddition_AdditionNull_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:   87:TEST(FracAddition, AdditionNull) {
+        1:   87-block  0
+call    0 returned 1
+------------------
+_ZN30FracAddition_AdditionNull_Test8TestBodyEv:
+function _ZN30FracAddition_AdditionNull_Test8TestBodyEv called 1 returned 100% blocks executed 32%
+        1:   87:TEST(FracAddition, AdditionNull) {
+        1:   88:    NormalFraction fraction1(3, 4);
+        1:   88-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   89:    NormalFraction fraction2(0, 1);
+        1:   89-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   90:    fraction1.Addition(fraction2);
+        1:   90-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   91:    ASSERT_EQ(fraction1.GetNumerator(), 3);
+        1:   91-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   91-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   91-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   91-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   91-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   91-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   91-block  6
+    $$$$$:   91-block  7
+    $$$$$:   91-block  8
+call   19 never executed
+    $$$$$:   91-block  9
+    $$$$$:   91-block 10
+call   20 never executed
+    $$$$$:   91-block 11
+    $$$$$:   91-block 12
+call   21 never executed
+       1*:   92:    ASSERT_EQ(fraction1.GetDenominator(), 4);
+        1:   92-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   92-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   92-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   92-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   92-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   92-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   92-block  6
+    $$$$$:   92-block  7
+    $$$$$:   92-block  8
+call   19 never executed
+    $$$$$:   92-block  9
+    $$$$$:   92-block 10
+call   20 never executed
+    $$$$$:   92-block 11
+    $$$$$:   92-block 12
+call   21 never executed
+        -:   93:}
+------------------
+        -:   94:
+        4:   95:TEST(FracAddition, Subtraction) {
+        1:   96:    NormalFraction fraction1(3, 4);
+        1:   97:    NormalFraction fraction2(-3, 4);
+        1:   98:    fraction1.Addition(fraction2);
+       1*:   99:    ASSERT_EQ(fraction1.GetNumerator(), 0);
+       1*:  100:    ASSERT_EQ(fraction1.GetDenominator(), 1);
+        -:  101:
+        1:  102:    NormalFraction fraction11(3, 4);
+        1:  103:    NormalFraction fraction22(-7, 9);
+        1:  104:    fraction11.Addition(fraction22);
+       1*:  105:    ASSERT_EQ(fraction11.GetNumerator(), -1);
+       1*:  106:    ASSERT_EQ(fraction11.GetDenominator(), 36);
+        -:  107:}
+------------------
+_ZN29FracAddition_Subtraction_TestC1Ev:
+function _ZN29FracAddition_Subtraction_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:   95:TEST(FracAddition, Subtraction) {
+        1:   95-block  0
+call    0 returned 1
+------------------
+_ZN29FracAddition_Subtraction_TestD0Ev:
+function _ZN29FracAddition_Subtraction_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:   95:TEST(FracAddition, Subtraction) {
+        1:   95-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN29FracAddition_Subtraction_TestD1Ev:
+function _ZN29FracAddition_Subtraction_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:   95:TEST(FracAddition, Subtraction) {
+        1:   95-block  0
+call    0 returned 1
+------------------
+_ZN29FracAddition_Subtraction_Test8TestBodyEv:
+function _ZN29FracAddition_Subtraction_Test8TestBodyEv called 1 returned 100% blocks executed 30%
+        1:   95:TEST(FracAddition, Subtraction) {
+        1:   96:    NormalFraction fraction1(3, 4);
+        1:   96-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   97:    NormalFraction fraction2(-3, 4);
+        1:   97-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   98:    fraction1.Addition(fraction2);
+        1:   98-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   99:    ASSERT_EQ(fraction1.GetNumerator(), 0);
+        1:   99-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   99-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   99-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   99-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   99-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   99-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:   99-block  6
+    $$$$$:   99-block  7
+    $$$$$:   99-block  8
+call   19 never executed
+    $$$$$:   99-block  9
+    $$$$$:   99-block 10
+call   20 never executed
+    $$$$$:   99-block 11
+    $$$$$:   99-block 12
+call   21 never executed
+       1*:  100:    ASSERT_EQ(fraction1.GetDenominator(), 1);
+        1:  100-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  100-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:  100-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  100-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  100-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  100-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:  100-block  6
+    $$$$$:  100-block  7
+    $$$$$:  100-block  8
+call   19 never executed
+    $$$$$:  100-block  9
+    $$$$$:  100-block 10
+call   20 never executed
+    $$$$$:  100-block 11
+    $$$$$:  100-block 12
+call   21 never executed
+        -:  101:
+        1:  102:    NormalFraction fraction11(3, 4);
+        1:  102-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  103:    NormalFraction fraction22(-7, 9);
+        1:  103-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  104:    fraction11.Addition(fraction22);
+        1:  104-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:  105:    ASSERT_EQ(fraction11.GetNumerator(), -1);
+        1:  105-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  105-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:  105-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  105-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  105-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  105-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:  105-block  6
+    $$$$$:  105-block  7
+    $$$$$:  105-block  8
+call   19 never executed
+    $$$$$:  105-block  9
+    $$$$$:  105-block 10
+call   20 never executed
+    $$$$$:  105-block 11
+    $$$$$:  105-block 12
+call   21 never executed
+       1*:  106:    ASSERT_EQ(fraction11.GetDenominator(), 36);
+        1:  106-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  106-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:  106-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  106-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  106-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  106-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:  106-block  6
+    $$$$$:  106-block  7
+    $$$$$:  106-block  8
+call   19 never executed
+    $$$$$:  106-block  9
+    $$$$$:  106-block 10
+call   20 never executed
+    $$$$$:  106-block 11
+    $$$$$:  106-block 12
+call   21 never executed
+        -:  107:}
+------------------
+        -:  108:
+        4:  109:TEST(FracMultiplication, NullNumerator) {
+        1:  110:    NormalFraction fraction1(3, 4);
+        1:  111:    NormalFraction fraction2(0, 1);
+        1:  112:    fraction1.Multiplication(fraction2);
+       1*:  113:    ASSERT_EQ(fraction1.GetNumerator(), 0);
+       1*:  114:    ASSERT_EQ(fraction1.GetDenominator(), 1);
+        -:  115:}
+------------------
+_ZN37FracMultiplication_NullNumerator_TestC1Ev:
+function _ZN37FracMultiplication_NullNumerator_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:  109:TEST(FracMultiplication, NullNumerator) {
+        1:  109-block  0
+call    0 returned 1
+------------------
+_ZN37FracMultiplication_NullNumerator_TestD0Ev:
+function _ZN37FracMultiplication_NullNumerator_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:  109:TEST(FracMultiplication, NullNumerator) {
+        1:  109-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN37FracMultiplication_NullNumerator_TestD1Ev:
+function _ZN37FracMultiplication_NullNumerator_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:  109:TEST(FracMultiplication, NullNumerator) {
+        1:  109-block  0
+call    0 returned 1
+------------------
+_ZN37FracMultiplication_NullNumerator_Test8TestBodyEv:
+function _ZN37FracMultiplication_NullNumerator_Test8TestBodyEv called 1 returned 100% blocks executed 32%
+        1:  109:TEST(FracMultiplication, NullNumerator) {
+        1:  110:    NormalFraction fraction1(3, 4);
+        1:  110-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  111:    NormalFraction fraction2(0, 1);
+        1:  111-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  112:    fraction1.Multiplication(fraction2);
+        1:  112-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:  113:    ASSERT_EQ(fraction1.GetNumerator(), 0);
+        1:  113-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  113-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:  113-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  113-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  113-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  113-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:  113-block  6
+    $$$$$:  113-block  7
+    $$$$$:  113-block  8
+call   19 never executed
+    $$$$$:  113-block  9
+    $$$$$:  113-block 10
+call   20 never executed
+    $$$$$:  113-block 11
+    $$$$$:  113-block 12
+call   21 never executed
+       1*:  114:    ASSERT_EQ(fraction1.GetDenominator(), 1);
+        1:  114-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  114-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:  114-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  114-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  114-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  114-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:  114-block  6
+    $$$$$:  114-block  7
+    $$$$$:  114-block  8
+call   19 never executed
+    $$$$$:  114-block  9
+    $$$$$:  114-block 10
+call   20 never executed
+    $$$$$:  114-block 11
+    $$$$$:  114-block 12
+call   21 never executed
+        -:  115:}
+------------------
+        -:  116:
+        4:  117:TEST(FracMultiplication, Multi) {
+        1:  118:    NormalFraction fraction1(3, 4);
+        1:  119:    NormalFraction fraction2(4, 3);
+        1:  120:    fraction1.Multiplication(fraction2);
+       1*:  121:    ASSERT_EQ(fraction1.GetNumerator(), 1);
+       1*:  122:    ASSERT_EQ(fraction1.GetDenominator(), 1);
+        -:  123:
+        1:  124:    NormalFraction fraction11(3, 4);
+        1:  125:    NormalFraction fraction22(8, 3);
+        1:  126:    fraction11.Multiplication(fraction22);
+       1*:  127:    ASSERT_EQ(fraction11.GetNumerator(), 2);
+       1*:  128:    ASSERT_EQ(fraction11.GetDenominator(), 1);
+        -:  129:
+        1:  130:    NormalFraction fraction3(3, 4);
+        1:  131:    NormalFraction fraction4(7, 2);
+        1:  132:    fraction3.Multiplication(fraction4);
+       1*:  133:    ASSERT_EQ(fraction3.GetNumerator(), 21);
+       1*:  134:    ASSERT_EQ(fraction3.GetDenominator(), 8);
+        -:  135:}
+------------------
+_ZN29FracMultiplication_Multi_TestC1Ev:
+function _ZN29FracMultiplication_Multi_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:  117:TEST(FracMultiplication, Multi) {
+        1:  117-block  0
+call    0 returned 1
+------------------
+_ZN29FracMultiplication_Multi_TestD0Ev:
+function _ZN29FracMultiplication_Multi_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:  117:TEST(FracMultiplication, Multi) {
+        1:  117-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN29FracMultiplication_Multi_TestD1Ev:
+function _ZN29FracMultiplication_Multi_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:  117:TEST(FracMultiplication, Multi) {
+        1:  117-block  0
+call    0 returned 1
+------------------
+_ZN29FracMultiplication_Multi_Test8TestBodyEv:
+function _ZN29FracMultiplication_Multi_Test8TestBodyEv called 1 returned 100% blocks executed 30%
+        1:  117:TEST(FracMultiplication, Multi) {
+        1:  118:    NormalFraction fraction1(3, 4);
+        1:  118-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  119:    NormalFraction fraction2(4, 3);
+        1:  119-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  120:    fraction1.Multiplication(fraction2);
+        1:  120-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:  121:    ASSERT_EQ(fraction1.GetNumerator(), 1);
+        1:  121-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  121-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:  121-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  121-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  121-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  121-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:  121-block  6
+    $$$$$:  121-block  7
+    $$$$$:  121-block  8
+call   19 never executed
+    $$$$$:  121-block  9
+    $$$$$:  121-block 10
+call   20 never executed
+    $$$$$:  121-block 11
+    $$$$$:  121-block 12
+call   21 never executed
+       1*:  122:    ASSERT_EQ(fraction1.GetDenominator(), 1);
+        1:  122-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  122-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:  122-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  122-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  122-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  122-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:  122-block  6
+    $$$$$:  122-block  7
+    $$$$$:  122-block  8
+call   19 never executed
+    $$$$$:  122-block  9
+    $$$$$:  122-block 10
+call   20 never executed
+    $$$$$:  122-block 11
+    $$$$$:  122-block 12
+call   21 never executed
+        -:  123:
+        1:  124:    NormalFraction fraction11(3, 4);
+        1:  124-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  125:    NormalFraction fraction22(8, 3);
+        1:  125-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  126:    fraction11.Multiplication(fraction22);
+        1:  126-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:  127:    ASSERT_EQ(fraction11.GetNumerator(), 2);
+        1:  127-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  127-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:  127-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  127-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  127-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  127-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:  127-block  6
+    $$$$$:  127-block  7
+    $$$$$:  127-block  8
+call   19 never executed
+    $$$$$:  127-block  9
+    $$$$$:  127-block 10
+call   20 never executed
+    $$$$$:  127-block 11
+    $$$$$:  127-block 12
+call   21 never executed
+       1*:  128:    ASSERT_EQ(fraction11.GetDenominator(), 1);
+        1:  128-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  128-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:  128-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  128-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  128-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  128-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:  128-block  6
+    $$$$$:  128-block  7
+    $$$$$:  128-block  8
+call   19 never executed
+    $$$$$:  128-block  9
+    $$$$$:  128-block 10
+call   20 never executed
+    $$$$$:  128-block 11
+    $$$$$:  128-block 12
+call   21 never executed
+        -:  129:
+        1:  130:    NormalFraction fraction3(3, 4);
+        1:  130-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  131:    NormalFraction fraction4(7, 2);
+        1:  131-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  132:    fraction3.Multiplication(fraction4);
+        1:  132-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:  133:    ASSERT_EQ(fraction3.GetNumerator(), 21);
+        1:  133-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  133-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:  133-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  133-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  133-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  133-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:  133-block  6
+    $$$$$:  133-block  7
+    $$$$$:  133-block  8
+call   19 never executed
+    $$$$$:  133-block  9
+    $$$$$:  133-block 10
+call   20 never executed
+    $$$$$:  133-block 11
+    $$$$$:  133-block 12
+call   21 never executed
+       1*:  134:    ASSERT_EQ(fraction3.GetDenominator(), 8);
+        1:  134-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  134-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:  134-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  134-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  134-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  134-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:  134-block  6
+    $$$$$:  134-block  7
+    $$$$$:  134-block  8
+call   19 never executed
+    $$$$$:  134-block  9
+    $$$$$:  134-block 10
+call   20 never executed
+    $$$$$:  134-block 11
+    $$$$$:  134-block 12
+call   21 never executed
+        -:  135:}
+------------------
+        -:  136:
+        4:  137:TEST(FracDivision, TheSame){
+        1:  138:    NormalFraction fraction1(3,4);
+        1:  139:    NormalFraction fraction2(fraction1);
+        1:  140:    fraction1.Division(fraction2);
+       1*:  141:    ASSERT_EQ(fraction1.GetNumerator(), 1);
+       1*:  142:    ASSERT_EQ(fraction1.GetDenominator(), 1);
+        -:  143:}
+------------------
+_ZN25FracDivision_TheSame_TestC1Ev:
+function _ZN25FracDivision_TheSame_TestC1Ev called 1 returned 100% blocks executed 100%
+        1:  137:TEST(FracDivision, TheSame){
+        1:  137-block  0
+call    0 returned 1
+------------------
+_ZN25FracDivision_TheSame_TestD0Ev:
+function _ZN25FracDivision_TheSame_TestD0Ev called 1 returned 100% blocks executed 100%
+        1:  137:TEST(FracDivision, TheSame){
+        1:  137-block  0
+call    0 returned 1
+call    1 returned 1
+------------------
+_ZN25FracDivision_TheSame_TestD1Ev:
+function _ZN25FracDivision_TheSame_TestD1Ev called 1 returned 100% blocks executed 100%
+        1:  137:TEST(FracDivision, TheSame){
+        1:  137-block  0
+call    0 returned 1
+------------------
+_ZN25FracDivision_TheSame_Test8TestBodyEv:
+function _ZN25FracDivision_TheSame_Test8TestBodyEv called 1 returned 100% blocks executed 32%
+        1:  137:TEST(FracDivision, TheSame){
+        1:  138:    NormalFraction fraction1(3,4);
+        1:  138-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  139:    NormalFraction fraction2(fraction1);
+        1:  139-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  140:    fraction1.Division(fraction2);
+        1:  140-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:  141:    ASSERT_EQ(fraction1.GetNumerator(), 1);
+        1:  141-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  141-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:  141-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  141-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  141-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  141-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:  141-block  6
+    $$$$$:  141-block  7
+    $$$$$:  141-block  8
+call   19 never executed
+    $$$$$:  141-block  9
+    $$$$$:  141-block 10
+call   20 never executed
+    $$$$$:  141-block 11
+    $$$$$:  141-block 12
+call   21 never executed
+       1*:  142:    ASSERT_EQ(fraction1.GetDenominator(), 1);
+        1:  142-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  142-block  1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:  142-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  142-block  3
+call   10 never executed
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  142-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  142-block  5
+call   17 never executed
+call   18 never executed
+    $$$$$:  142-block  6
+    $$$$$:  142-block  7
+    $$$$$:  142-block  8
+call   19 never executed
+    $$$$$:  142-block  9
+    $$$$$:  142-block 10
+call   20 never executed
+    $$$$$:  142-block 11
+    $$$$$:  142-block 12
+call   21 never executed
+        -:  143:}
+------------------
+        -:  144:
+        4:  145:TEST(FracDivision, Div){
+        1:  146:    NormalFraction fraction1(3,4);
+        1:  147:    NormalFraction fraction2(8,7);
+        1:  148:    fraction1.Division(fraction2);
+       1*:  149:    ASSERT_EQ(fraction1.GetNumerator(), 21);
+       1*:  150:    ASSERT_EQ(fraction1.GetDenominator(), 32);
+        -:  151:}
+        -:  152:
+        -:  153:
+        -:  154:

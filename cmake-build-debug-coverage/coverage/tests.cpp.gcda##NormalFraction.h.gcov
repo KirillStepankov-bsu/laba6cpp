@@ -1,0 +1,41 @@
+        -:    0:Source:C:/Users/Asus/CLionProjects/laba6/NormalFraction.h
+        -:    0:Graph:C:\Users\Asus\CLionProjects\laba6\cmake-build-debug-coverage\CMakeFiles\laba6.dir\tests.cpp.gcno
+        -:    0:Data:C:\Users\Asus\CLionProjects\laba6\cmake-build-debug-coverage\CMakeFiles\laba6.dir\tests.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#ifndef MAIN_NORMALFRACTION_H
+        -:    2:#define MAIN_NORMALFRACTION_H
+        -:    3:
+        -:    4:
+        -:    5:class NormalFraction {
+        -:    6:public:
+        -:    7:    NormalFraction(NormalFraction &fraction);
+        -:    8:
+        -:    9:    NormalFraction(int Numerator, int Denominator);
+        -:   10:
+function _ZNK14NormalFraction12GetNumeratorEv called 21 returned 100% blocks executed 100%
+       21:   11:    int GetNumerator() const { return numerator; }
+       21:   11-block  0
+        -:   12:
+function _ZNK14NormalFraction14GetDenominatorEv called 21 returned 100% blocks executed 100%
+       21:   13:    int GetDenominator() const { return denominator; }
+       21:   13-block  0
+        -:   14:
+        -:   15:    void Addition(const NormalFraction &fraction2);
+        -:   16:
+        -:   17:    void Multiplication(const NormalFraction &fraction2);
+        -:   18:
+        -:   19:    void PrintFraction() const;
+        -:   20:
+        -:   21:    void Division(const NormalFraction &fraction2);
+        -:   22:
+        -:   23:private:
+        -:   24:    void Reduction(int &Numerator, int &Denominator);
+        -:   25:
+        -:   26:    int GreatestCommonFactor(int Numerator, int Denominator);
+        -:   27:
+        -:   28:    int numerator;
+        -:   29:    int denominator;
+        -:   30:};
+        -:   31:
+        -:   32:
+        -:   33:#endif //MAIN_NORMALFRACTION_H
