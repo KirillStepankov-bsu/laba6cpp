@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/laba6.dir/NormalFraction.cpp.obj"
-  "CMakeFiles/laba6.dir/main.cpp.obj"
   "CMakeFiles/laba6.dir/tests.cpp.obj"
   "laba6.exe"
   "laba6.exe.manifest"

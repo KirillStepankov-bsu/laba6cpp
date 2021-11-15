@@ -4,9 +4,6 @@
 CMakeFiles/laba6.dir/NormalFraction.cpp.obj: \
  ../NormalFraction.cpp \
  ../NormalFraction.h
-CMakeFiles/laba6.dir/main.cpp.obj: \
- ../NormalFraction.h \
- ../main.cpp
 CMakeFiles/laba6.dir/tests.cpp.obj: \
  ../NormalFraction.h \
  ../tests.cpp \

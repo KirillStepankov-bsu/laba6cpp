@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Asus/CLionProjects/laba6/NormalFraction.cpp" "C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/CMakeFiles/laba6.dir/NormalFraction.cpp.obj"
-  "C:/Users/Asus/CLionProjects/laba6/main.cpp" "C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/CMakeFiles/laba6.dir/main.cpp.obj"
   "C:/Users/Asus/CLionProjects/laba6/tests.cpp" "C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/CMakeFiles/laba6.dir/tests.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

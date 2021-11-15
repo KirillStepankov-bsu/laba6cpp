@@ -6117,26 +6117,26 @@ call    0 returned 80
 call    0 returned 80
 branch  1 taken 80 (fallthrough)
 branch  2 taken 0 (throw)
-      944: 2153:  for (const char* ch = start; ch != end; ++ch) {
+      943: 2153:  for (const char* ch = start; ch != end; ++ch) {
        80: 2153-block  0
-      944: 2153-block  1
-branch  0 taken 864 (fallthrough)
+      943: 2153-block  1
+branch  0 taken 863 (fallthrough)
 branch  1 taken 80
-      864: 2153-block  2
-      864: 2154:    if (*ch == '\0') {
-      864: 2154-block  0
+      863: 2153-block  2
+      863: 2154:    if (*ch == '\0') {
+      863: 2154-block  0
 branch  0 taken 0 (fallthrough)
-branch  1 taken 864
+branch  1 taken 863
     #####: 2155:      result += "\\0";  // Replaces NUL with "\\0";
     %%%%%: 2155-block  0
 call    0 never executed
 branch  1 never executed
 branch  2 never executed
         -: 2156:    } else {
-      864: 2157:      result += *ch;
-      864: 2157-block  0
-call    0 returned 864
-branch  1 taken 864 (fallthrough)
+      863: 2157:      result += *ch;
+      863: 2157-block  0
+call    0 returned 863
+branch  1 taken 863 (fallthrough)
 branch  2 taken 0 (throw)
         -: 2158:    }
         -: 2159:  }

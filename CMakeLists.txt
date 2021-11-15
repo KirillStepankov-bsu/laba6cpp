@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.20)
 project(laba6)
 
 set(CMAKE_CXX_STANDARD 17)
-
+add_executable(lab6 main.cpp NormalFraction.cpp NormalFraction.h)
 include(FetchContent)
 FetchContent_Declare(
         googletest
@@ -11,8 +11,8 @@ FetchContent_Declare(
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-add_executable(laba6 main.cpp NormalFraction.cpp NormalFraction.h tests.cpp)
+add_executable(Google_Test_Run NormalFraction.cpp NormalFraction.h tests.cpp )
 
-target_link_libraries(laba6 gtest_main)
+target_link_libraries(Google_Test_Run gtest_main)
 
 

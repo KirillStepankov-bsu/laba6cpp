@@ -64,6 +64,25 @@ CMAKE_BINARY_DIR = C:\Users\Asus\CLionProjects\laba6\cmake-build-debug-coverage
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -97,25 +116,6 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-.PHONY : list_install_components/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
@@ -161,17 +161,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named laba6
+# Target rules for targets named lab6
 
 # Build rule for target.
-laba6: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 laba6
-.PHONY : laba6
+lab6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab6
+.PHONY : lab6
 
 # fast build rule for target.
-laba6/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make CMakeFiles/laba6.dir/build
-.PHONY : laba6/fast
+lab6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/build
+.PHONY : lab6/fast
+
+#=============================================================================
+# Target rules for targets named Google_Test_Run
+
+# Build rule for target.
+Google_Test_Run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Google_Test_Run
+.PHONY : Google_Test_Run
+
+# fast build rule for target.
+Google_Test_Run/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Test_Run.dir\build.make CMakeFiles/Google_Test_Run.dir/build
+.PHONY : Google_Test_Run/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -230,7 +243,8 @@ NormalFraction.obj: NormalFraction.cpp.obj
 
 # target to build an object file
 NormalFraction.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make CMakeFiles/laba6.dir/NormalFraction.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/NormalFraction.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Test_Run.dir\build.make CMakeFiles/Google_Test_Run.dir/NormalFraction.cpp.obj
 .PHONY : NormalFraction.cpp.obj
 
 NormalFraction.i: NormalFraction.cpp.i
@@ -238,7 +252,8 @@ NormalFraction.i: NormalFraction.cpp.i
 
 # target to preprocess a source file
 NormalFraction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make CMakeFiles/laba6.dir/NormalFraction.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/NormalFraction.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Test_Run.dir\build.make CMakeFiles/Google_Test_Run.dir/NormalFraction.cpp.i
 .PHONY : NormalFraction.cpp.i
 
 NormalFraction.s: NormalFraction.cpp.s
@@ -246,7 +261,8 @@ NormalFraction.s: NormalFraction.cpp.s
 
 # target to generate assembly for a file
 NormalFraction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make CMakeFiles/laba6.dir/NormalFraction.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/NormalFraction.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Test_Run.dir\build.make CMakeFiles/Google_Test_Run.dir/NormalFraction.cpp.s
 .PHONY : NormalFraction.cpp.s
 
 main.obj: main.cpp.obj
@@ -254,7 +270,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make CMakeFiles/laba6.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -262,7 +278,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make CMakeFiles/laba6.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -270,7 +286,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make CMakeFiles/laba6.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6.dir\build.make CMakeFiles/lab6.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 tests.obj: tests.cpp.obj
@@ -278,7 +294,7 @@ tests.obj: tests.cpp.obj
 
 # target to build an object file
 tests.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make CMakeFiles/laba6.dir/tests.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Test_Run.dir\build.make CMakeFiles/Google_Test_Run.dir/tests.cpp.obj
 .PHONY : tests.cpp.obj
 
 tests.i: tests.cpp.i
@@ -286,7 +302,7 @@ tests.i: tests.cpp.i
 
 # target to preprocess a source file
 tests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make CMakeFiles/laba6.dir/tests.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Test_Run.dir\build.make CMakeFiles/Google_Test_Run.dir/tests.cpp.i
 .PHONY : tests.cpp.i
 
 tests.s: tests.cpp.s
@@ -294,7 +310,7 @@ tests.s: tests.cpp.s
 
 # target to generate assembly for a file
 tests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba6.dir\build.make CMakeFiles/laba6.dir/tests.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Google_Test_Run.dir\build.make CMakeFiles/Google_Test_Run.dir/tests.cpp.s
 .PHONY : tests.cpp.s
 
 # Help Target
@@ -309,11 +325,12 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... Google_Test_Run
 	@echo ... gmock
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... laba6
+	@echo ... lab6
 	@echo ... NormalFraction.obj
 	@echo ... NormalFraction.i
 	@echo ... NormalFraction.s

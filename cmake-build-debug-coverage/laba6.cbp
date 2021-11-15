@@ -17,32 +17,72 @@
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="laba6">
-				<Option output="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/laba6.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="list_install_components">
 				<Option working_dir="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/_deps/googletest-src/googletest/include"/>
-					<Add directory="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/_deps/googletest-src/googletest"/>
-					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
-					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
-					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
-					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
-					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
-					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
-					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 laba6"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 list_install_components"/>
 					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="laba6/fast">
-				<Option output="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/laba6.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="lab6">
+				<Option output="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/lab6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 lab6"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab6/fast">
+				<Option output="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/lab6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 lab6/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Google_Test_Run">
+				<Option output="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Google_Test_Run.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -59,7 +99,31 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 laba6/fast"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Google_Test_Run"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Google_Test_Run/fast">
+				<Option output="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Google_Test_Run.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/_deps/googletest-src/googletest"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Google_Test_Run/fast"/>
 					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
@@ -90,26 +154,6 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="list_install_components">
-				<Option working_dir="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 list_install_components"/>
 					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
@@ -327,10 +371,12 @@
 			</Target>
 		</Build>
 		<Unit filename="C:/Users/Asus/CLionProjects/laba6/NormalFraction.cpp">
-			<Option target="laba6"/>
+			<Option target="lab6"/>
+			<Option target="Google_Test_Run"/>
 		</Unit>
 		<Unit filename="C:/Users/Asus/CLionProjects/laba6/NormalFraction.h">
-			<Option target="laba6"/>
+			<Option target="lab6"/>
+			<Option target="Google_Test_Run"/>
 		</Unit>
 		<Unit filename="C:/Users/Asus/CLionProjects/laba6/cmake-build-debug-coverage/_deps/googletest-src/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
@@ -345,10 +391,10 @@
 			<Option target="gtest_main"/>
 		</Unit>
 		<Unit filename="C:/Users/Asus/CLionProjects/laba6/main.cpp">
-			<Option target="laba6"/>
+			<Option target="lab6"/>
 		</Unit>
 		<Unit filename="C:/Users/Asus/CLionProjects/laba6/tests.cpp">
-			<Option target="laba6"/>
+			<Option target="Google_Test_Run"/>
 		</Unit>
 		<Unit filename="C:/Users/Asus/CLionProjects/laba6/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

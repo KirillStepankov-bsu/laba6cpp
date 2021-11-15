@@ -33,7 +33,6 @@ void NormalFraction::Division(const NormalFraction &fraction2) {
     numerator *= fraction2.denominator;
     denominator *= fraction2.numerator;
     numerator = denominator < 0 ? -numerator : numerator;
-    denominator = abs(denominator);
     Reduction(numerator, denominator);
 }
 
